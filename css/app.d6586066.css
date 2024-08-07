@@ -1,0 +1,3695 @@
+.imported[data-v-1751a4da] {
+  display: inline-block;
+}
+.avue-searchs[data-v-1ffa9008] {
+  padding-top: 3.125rem;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1024;
+}
+.avue-searchs__title[data-v-1ffa9008] {
+  margin-bottom: 3.75rem;
+  text-align: center;
+  font-size: 2.625rem;
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  text-indent: 0.125rem;
+}
+.avue-searchs__form[data-v-1ffa9008] {
+  margin: 0 auto 3.125rem auto;
+  width: 50%;
+  text-align: center;
+}
+.avue-searchs__form p[data-v-1ffa9008] {
+  margin-top: 1.25rem;
+}
+.avue-searchs__scrollbar[data-v-1ffa9008] {
+  height: 25rem;
+}
+.avue-searchs__list[data-v-1ffa9008] {
+  box-sizing: border-box;
+  padding: 1.25rem 1.875rem;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #ebeef5;
+  background-color: #fff;
+  overflow: hidden;
+  color: #303133;
+  transition: 0.3s;
+  box-shadow: 0 0.125rem 0.75rem 0 rgba(0, 0, 0, 0.1);
+}
+.avue-searchs__item[data-v-1ffa9008] {
+  padding: 0.3125rem 0;
+  border-bottom: 0.0625rem dashed #eee;
+}
+.avue-searchs__item-icon[data-v-1ffa9008] {
+  margin-right: 0.3125rem;
+  font-size: 1.125rem;
+}
+.avue-searchs__item-title[data-v-1ffa9008] {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #333;
+}
+.avue-searchs__item-path[data-v-1ffa9008] {
+  line-height: 1.875rem;
+  color: #666;
+}
+.my-autocomplete li {
+  line-height: normal;
+  padding: 0.4375rem;
+}
+.my-autocomplete li .icon {
+  margin-right: 0.3125rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.my-autocomplete li .name {
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.my-autocomplete li .addr {
+  padding-top: 0.3125rem;
+  width: 100%;
+  font-size: 0.75rem;
+  color: #b4b4b4;
+}
+.my-autocomplete li .highlighted .addr {
+  color: #ddd;
+}
+.ml20[data-v-4684a4f4] {
+  margin-left: 1.25rem;
+}
+.ml0[data-v-4684a4f4] {
+  margin-left: 0;
+}
+.f16[data-v-4684a4f4] {
+  font-size: 0.875rem !important;
+}
+.version_bgc .title[data-v-4684a4f4] {
+  font-size: 1.75rem;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+.version_bgc .version[data-v-4684a4f4] {
+  font-size: 1.25rem;
+  color: #999999;
+  width: 100%;
+  text-align: center;
+  margin: 0.9375rem 0;
+}
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter-active {
+  transition: opacity 2.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.avue-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15rem;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: #20222a;
+  font-size: 1.25rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 1024;
+}
+.avue-logo_title {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+.avue-logo_subtitle {
+  display: block;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+}
+.h100 {
+  height: 100%;
+}
+.pClass[data-v-1a0035fe] {
+  color: #999;
+}
+.el-icon-location[data-v-1a0035fe] {
+  color: #225DC8;
+  line-height: 2.5rem;
+  margin-right: 0.3125rem;
+  font-size: 1.125rem;
+}
+.el-breadcrumb[data-v-1a0035fe] .el-breadcrumb__separator {
+  margin: 0 0.3125rem;
+}
+/* Make clicks pass-through */
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #29d;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.125rem;
+}
+
+/* Fancy blur effect */
+
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 6.25rem;
+  height: 100%;
+  box-shadow: 0 0 0.625rem #29d, 0 0 0.3125rem #29d;
+  opacity: 1.0;
+  -webkit-transform: rotate(3deg) translate(0, -0.25rem);
+  -ms-transform: rotate(3deg) translate(0, -0.25rem);
+  transform: rotate(3deg) translate(0, -0.25rem);
+}
+
+/* Remove these to get rid of the spinner */
+
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 0.9375rem;
+  right: 0.9375rem;
+}
+
+#nprogress .spinner-icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  box-sizing: border-box;
+  border: solid 0.125rem transparent;
+  border-top-color: #29d;
+  border-left-color: #29d;
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.avue--detail .el-col {
+  margin-bottom: 0;
+}
+@charset "UTF-8";
+
+.el-dropdown-menu__item {
+  font-size: 0.75rem !important;
+  line-height: 1.75rem !important;
+}
+
+.el-scrollbar__view {
+  height: 100%;
+}
+
+.el-menu--horizontal {
+  border-bottom: none !important;
+}
+
+.el-menu {
+  border-right: none !important;
+}
+
+.el-menu--display,
+.el-menu--display + .el-submenu__icon-arrow {
+  display: none;
+}
+
+.el-message__icon,
+.el-message__content {
+  display: inline-block;
+}
+
+.el-date-editor .el-range-input,
+.el-date-editor .el-range-separator {
+  height: auto;
+  overflow: hidden;
+}
+
+.el-dialog__wrapper {
+  z-index: 2048;
+}
+
+.el-col {
+  margin-bottom: 0.5rem;
+}
+
+.el-main {
+  padding: 0 !important;
+}
+
+.el-dropdown-menu__item--divided:before,
+.el-menu,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent;
+}
+
+.el-dropdown-menu__item--divided:before,
+.el-menu,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent !important;
+}
+
+.el-card__header {
+  padding: 0.375rem 1.125rem !important;
+}
+
+.el-divider--horizontal {
+  margin: 0.75rem 0 !important;
+}
+
+.avue-top {
+  padding: 0 1.25rem;
+  position: relative;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 1.75rem;
+  height: 5rem;
+  line-height: 5rem;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.avue-top .el-menu-item i,
+.avue-top .el-menu-item span {
+  font-size: 0.8125rem;
+}
+
+.avue-top .el-menu--horizontal > .el-menu-item {
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.avue-breadcrumb {
+  height: 100%;
+}
+
+.avue-breadcrumb i {
+  font-size: 1.875rem !important;
+}
+
+.avue-breadcrumb--active {
+  transform: rotate(90deg);
+  margin-top: 0.625rem;
+}
+
+.top-menu {
+  box-sizing: border-box;
+}
+
+.top-menu .el-menu-item {
+  padding: 0 0.625rem;
+  border: none !important;
+}
+
+.top-search {
+  line-height: 5rem;
+  position: absolute !important;
+  left: 1.25rem;
+  top: 0;
+  width: 25rem !important;
+}
+
+.top-search .el-input__inner {
+  font-size: 0.8125rem;
+  border: none;
+  background-color: transparent;
+}
+
+.top-bar__img {
+  margin: 0 0.5rem 0 0.3125rem;
+  padding: 0.125rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 0.0625rem solid #eee;
+  vertical-align: middle;
+}
+
+.top-bar__left,
+.top-bar__right {
+  height: 5rem;
+  position: absolute;
+  top: 0;
+}
+
+.top-bar__left i,
+.top-bar__right i {
+  line-height: 5rem;
+}
+
+.top-bar__left {
+  left: 1.25rem;
+}
+
+.top-bar__right {
+  right: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar__item {
+  position: relative;
+  display: inline-block;
+  height: 5rem;
+  margin: 0 0.625rem;
+  font-size: 1rem;
+}
+
+.top-bar__item--show {
+  display: inline-block !important;
+}
+
+.top-bar__item .el-badge__content.is-fixed {
+  top: 0.75rem;
+  right: 0.3125rem;
+}
+
+.top-bar__title {
+  height: 100%;
+  padding: 0 2.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.avue-tags {
+  user-select: none;
+  position: relative;
+  padding: 0 0.625rem;
+  margin-bottom: 0.625rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-top: 0.0625rem solid #f6f6f6;
+  background-color: #fff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+}
+
+.avue-tags .el-tabs--card > .el-tabs__header {
+  margin: 0;
+}
+
+.avue-tags .el-tabs--card > .el-tabs__header .el-tabs__nav,
+.avue-tags .el-tabs--card > .el-tabs__header .el-tabs__item,
+.avue-tags .el-tabs--card > .el-tabs__header {
+  border: none;
+}
+
+.avue-tags .el-tabs--card > .el-tabs__header .el-tabs__item:first-child {
+  border-left-width: 0.0625rem;
+}
+
+.avue-tags .el-tabs--card > .el-tabs__header .el-tabs__item {
+  margin: 0 0.1875rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 0.8125rem;
+  font-weight: normal;
+  color: #ccc;
+}
+
+.avue-tags .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
+  color: #409EFF;
+  border-bottom: 0.1875rem solid #409EFF;
+}
+
+.avue-tags .el-tabs__nav-prev,
+.avue-tags .el-tabs__nav-next {
+  width: 1.25rem;
+  line-height: 2.125rem;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.avue-tags__box {
+  position: relative;
+  box-sizing: border-box;
+  padding-right: 6.625rem;
+  width: 100%;
+}
+
+.avue-tags__box--close .el-tabs__item:first-child {
+  padding: 0 1.25rem !important;
+}
+
+.avue-tags__box--close .el-tabs__item:first-child .el-icon-close {
+  display: none;
+}
+
+.avue-tags__contentmenu {
+  position: fixed;
+  width: 7.5rem;
+  background-color: #fff;
+  z-index: 1024;
+  border-radius: 0.3125rem;
+  box-shadow: 0.0625rem 0.125rem 0.625rem #ccc;
+}
+
+.avue-tags__contentmenu .item {
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.5rem 1.25rem 0.5rem 0.9375rem;
+  color: #606266;
+}
+
+.avue-tags__contentmenu .item:first-child {
+  border-top-left-radius: 0.3125rem;
+  border-top-right-radius: 0.3125rem;
+}
+
+.avue-tags__contentmenu .item:last-child {
+  border-bottom-left-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
+}
+
+.avue-tags__contentmenu .item:hover {
+  background-color: #409EFF;
+  color: #fff;
+}
+
+.avue-tags__menu {
+  position: absolute !important;
+  top: 0.1875rem;
+  right: 0;
+  padding: 0.0625rem 0 0 0.9375rem;
+  box-sizing: border-box;
+}
+
+.el-menu--popup .el-menu-item {
+  background-color: #20222a;
+}
+
+.el-menu--popup .el-menu-item i,
+.el-menu--popup .el-menu-item span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.el-menu--popup .el-menu-item:hover i,
+.el-menu--popup .el-menu-item:hover span {
+  color: #fff;
+}
+
+.el-menu--popup .el-menu-item.is-active {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.el-menu--popup .el-menu-item.is-active:before {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0.25rem;
+  background: #409eff;
+  position: absolute;
+}
+
+.el-menu--popup .el-menu-item.is-active i,
+.el-menu--popup .el-menu-item.is-active span {
+  color: #fff;
+}
+
+.avue-sidebar {
+  user-select: none;
+  position: relative;
+  padding-top: 2.5rem;
+  height: 100%;
+  background-color: #fff;
+  transition: width .2s;
+  box-sizing: border-box;
+}
+
+.avue-sidebar .el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+.avue-sidebar .el-menu-item {
+  height: 3.125rem;
+  line-height: 3.125rem;
+  padding: 0 2.8125rem;
+  min-width: 12.5rem;
+}
+
+.avue-sidebar .el-submenu__title {
+  height: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.avue-sidebar .el-submenu__icon-arrow {
+  position: absolute;
+  top: 50%;
+  right: 1.25rem;
+  margin-top: -0.4375rem;
+}
+
+.avue-sidebar .el-submenu__icon-arrow {
+  font-size: 0.75rem;
+}
+
+.avue-sidebar--tip {
+  width: 90%;
+  height: 8.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3125rem;
+  position: absolute;
+  top: 0.3125rem;
+  left: 5%;
+  color: #ccc;
+  z-index: 2;
+  text-align: center;
+  font-size: 0.875rem;
+  background-color: #fff;
+}
+
+.avue-sidebar .el-menu-item i,
+.avue-sidebar .el-submenu__title i {
+  margin-right: 0.625rem;
+}
+
+.avue-sidebar .el-menu-item i,
+.avue-sidebar .el-menu-item span,
+.avue-sidebar .el-submenu__title i,
+.avue-sidebar .el-submenu__title span {
+  color: #000;
+}
+
+.avue-sidebar .el-menu-item:hover,
+.avue-sidebar .el-submenu__title:hover {
+  background: transparent;
+}
+
+.avue-sidebar .el-menu-item:hover i,
+.avue-sidebar .el-menu-item:hover span,
+.avue-sidebar .el-submenu__title:hover i,
+.avue-sidebar .el-submenu__title:hover span {
+  color: #000;
+}
+
+.avue-sidebar .el-menu-item.is-active,
+.avue-sidebar .el-submenu__title.is-active {
+  background: #409eff;
+}
+
+.avue-sidebar .el-menu-item.is-active:before,
+.avue-sidebar .el-submenu__title.is-active:before {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0.25rem;
+  background: #409eff;
+  position: absolute;
+}
+
+.avue-sidebar .el-menu-item.is-active i,
+.avue-sidebar .el-menu-item.is-active span,
+.avue-sidebar .el-submenu__title.is-active i,
+.avue-sidebar .el-submenu__title.is-active span {
+  color: #fff;
+}
+
+.fade-transverse-leave-active,
+.fade-transverse-enter-active {
+  transition: all .5s;
+}
+
+.fade-transverse-enter {
+  opacity: 0;
+  transform: translateX(-1.875rem);
+}
+
+.fade-transverse-leave-to {
+  opacity: 0;
+  transform: translateX(1.875rem);
+}
+
+.fade-scale-leave-active,
+.fade-scale-enter-active {
+  transition: all .5s;
+}
+
+.fade-scale-enter {
+  opacity: 0;
+  transform: scale(1.2);
+}
+
+.fade-scale-leave-to {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+@-webkit-keyframes animate-cloud {
+  from {
+    background-position: 37.5rem 100%;
+  }
+
+  to {
+    background-position: 0 100%;
+  }
+}
+
+@-moz-keyframes animate-cloud {
+  from {
+    background-position: 37.5rem 100%;
+  }
+
+  to {
+    background-position: 0 100%;
+  }
+}
+
+@-ms-keyframes animate-cloud {
+  from {
+    background-position: 37.5rem 100%;
+  }
+
+  to {
+    background-position: 0 100%;
+  }
+}
+
+@-o-keyframes animate-cloud {
+  from {
+    background-position: 37.5rem 100%;
+  }
+
+  to {
+    background-position: 0 100%;
+  }
+}
+
+.theme-white .el-menu--popup .el-menu-item {
+  background-color: #fff;
+}
+
+.theme-white .el-menu--popup .el-menu-item i,
+.theme-white .el-menu--popup .el-menu-item span {
+  color: #666;
+}
+
+.theme-white .el-menu--popup .el-menu-item:hover i,
+.theme-white .el-menu--popup .el-menu-item:hover span {
+  color: #333;
+}
+
+.theme-white .el-menu--popup .el-menu-item.is-active {
+  background-color: #409EFF;
+}
+
+.theme-white .el-menu--popup .el-menu-item.is-active:before {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0.25rem;
+  background: #409eff;
+  position: absolute;
+}
+
+.theme-white .el-menu--popup .el-menu-item.is-active i,
+.theme-white .el-menu--popup .el-menu-item.is-active span {
+  color: #fff;
+}
+
+.theme-white .avue-header,
+.theme-white .avue-logo,
+.theme-white .tags-container {
+  background-color: #409EFF;
+}
+
+.theme-white .avue-sidebar--tip {
+  background-color: transparent;
+  color: #333;
+}
+
+.theme-white .el-dropdown {
+  color: #fff;
+}
+
+.theme-white .avue-logo_title {
+  font-weight: 400;
+  color: #fff;
+}
+
+.theme-white .logo_title,
+.theme-white .avue-breadcrumb {
+  color: #fff;
+}
+
+.theme-white .logo_title i,
+.theme-white .avue-breadcrumb i {
+  color: #fff;
+}
+
+.theme-white .avue-top .el-menu-item i,
+.theme-white .avue-top .el-menu-item span {
+  color: #fff;
+}
+
+.theme-white .avue-top .el-menu-item:hover i,
+.theme-white .avue-top .el-menu-item:hover span {
+  color: #fff;
+}
+
+.theme-white .avue-sidebar {
+  box-shadow: 0.125rem 0 0.375rem rgba(0, 21, 41, 0.15);
+  background-color: #fff;
+  padding-top: 4.375rem;
+}
+
+.theme-white .avue-sidebar .el-menu-item i,
+.theme-white .avue-sidebar .el-menu-item span,
+.theme-white .avue-sidebar .el-submenu__title i,
+.theme-white .avue-sidebar .el-submenu__title span {
+  color: #666;
+}
+
+.theme-white .avue-sidebar .el-menu-item:hover,
+.theme-white .avue-sidebar .el-submenu__title:hover {
+  background: transparent;
+}
+
+.theme-white .avue-sidebar .el-menu-item:hover i,
+.theme-white .avue-sidebar .el-menu-item:hover span,
+.theme-white .avue-sidebar .el-submenu__title:hover i,
+.theme-white .avue-sidebar .el-submenu__title:hover span {
+  color: #333;
+}
+
+.theme-white .avue-sidebar .el-menu-item.is-active,
+.theme-white .avue-sidebar .el-submenu__title.is-active {
+  background-color: #409EFF;
+}
+
+.theme-white .avue-sidebar .el-menu-item.is-active i,
+.theme-white .avue-sidebar .el-menu-item.is-active span,
+.theme-white .avue-sidebar .el-submenu__title.is-active i,
+.theme-white .avue-sidebar .el-submenu__title.is-active span {
+  color: #fff;
+}
+
+.theme-white .top-search .el-input__inner {
+  color: #333;
+}
+
+.theme-white .top-search input::-webkit-input-placeholder,
+.theme-white .top-search textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+
+.theme-white .top-search input:-moz-placeholder,
+.theme-white .top-search textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+.theme-white .top-search input::-moz-placeholder,
+.theme-white .top-search textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+.theme-white .top-search input:-ms-input-placeholder,
+.theme-white .top-search textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+}
+
+.theme-white .top-bar__item i {
+  color: #fff;
+}
+
+.theme-dark .avue-logo {
+  color: #fff;
+  background-color: #2c3643;
+  box-shadow: none;
+}
+
+.theme-dark .avue-logo .avue-logo_title {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.theme-dark .avue-top {
+  background-color: #2c3643;
+  box-shadow: none;
+  color: #ccc;
+}
+
+.theme-dark .avue-top i,
+.theme-dark .avue-top span {
+  color: #ccc;
+}
+
+.theme-dark .avue-main {
+  padding: 0 0.3125rem;
+}
+
+.theme-dark .avue-tags {
+  padding-left: 0;
+  background-color: #2c3643;
+  border-color: transparent;
+}
+
+.theme-dark .avue-tags .el-tabs__item {
+  margin: 0 !important;
+  background-color: #262d37;
+}
+
+.theme-dark .avue-tags .el-tabs__item.is-active {
+  color: #262d37 !important;
+  background-color: #fff !important;
+  border-color: #262d37 !important;
+}
+
+.theme-dark .avue-main {
+  background-color: #2c3643;
+}
+
+.theme-dark .avue-sidebar {
+  background-color: #2c3643;
+  box-shadow: none;
+}
+
+.theme-dark .avue-sidebar .el-menu-item i,
+.theme-dark .avue-sidebar .el-menu-item span,
+.theme-dark .avue-sidebar .el-submenu__title i,
+.theme-dark .avue-sidebar .el-submenu__title span {
+  color: #ccc;
+}
+
+.theme-dark .avue-sidebar .el-menu-item:hover,
+.theme-dark .avue-sidebar .el-menu-item.is-active,
+.theme-dark .avue-sidebar .el-submenu__title:hover,
+.theme-dark .avue-sidebar .el-submenu__title.is-active {
+  background: #262d37;
+}
+
+.theme-dark .avue-sidebar .el-menu-item:hover i,
+.theme-dark .avue-sidebar .el-menu-item:hover span,
+.theme-dark .avue-sidebar .el-menu-item.is-active i,
+.theme-dark .avue-sidebar .el-menu-item.is-active span,
+.theme-dark .avue-sidebar .el-submenu__title:hover i,
+.theme-dark .avue-sidebar .el-submenu__title:hover span,
+.theme-dark .avue-sidebar .el-submenu__title.is-active i,
+.theme-dark .avue-sidebar .el-submenu__title.is-active span {
+  color: #fff;
+}
+
+.theme-dark .avue-sidebar .el-menu-item:hover:before,
+.theme-dark .avue-sidebar .el-menu-item.is-active:before,
+.theme-dark .avue-sidebar .el-submenu__title:hover:before,
+.theme-dark .avue-sidebar .el-submenu__title.is-active:before {
+  background-color: #000;
+}
+
+.theme-star .avue-main {
+  background: transparent;
+}
+
+.theme-star .avue-contail {
+  background-image: url("/img/bg/star-squashed.jpg");
+  background-size: 100% 100%;
+}
+
+.theme-star .avue-logo {
+  color: #fff;
+}
+
+.theme-star .avue-header,
+.theme-star .avue-logo,
+.theme-star .tags-container {
+  background-color: transparent;
+}
+
+.theme-star .el-card,
+.theme-star .error-page {
+  opacity: .9;
+}
+
+.theme-star .avue-tabs {
+  padding: 0 1.25rem;
+}
+
+.theme-star .avue-tags {
+  background-color: transparent;
+  border-top: none;
+}
+
+.theme-star .avue-top .avue-breadcrumb {
+  color: #fff;
+}
+
+.theme-star .avue-top .el-menu-item i,
+.theme-star .avue-top .el-menu-item span {
+  color: #fff;
+}
+
+.theme-star .avue-top .el-menu-item.is-active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.theme-star .avue-top .el-dropdown {
+  color: #fff;
+}
+
+.theme-star .avue-sidebar {
+  box-shadow: 0.125rem 0 0.375rem rgba(0, 21, 41, 0.15);
+  background-color: transparent;
+}
+
+.theme-star .avue-sidebar .el-menu-item i,
+.theme-star .avue-sidebar .el-menu-item span,
+.theme-star .avue-sidebar .el-submenu__title i,
+.theme-star .avue-sidebar .el-submenu__title span {
+  color: #fff;
+}
+
+.theme-star .avue-sidebar .el-menu-item:hover,
+.theme-star .avue-sidebar .el-submenu__title:hover {
+  background: transparent;
+}
+
+.theme-star .avue-sidebar .el-menu-item:hover i,
+.theme-star .avue-sidebar .el-menu-item:hover span,
+.theme-star .avue-sidebar .el-submenu__title:hover i,
+.theme-star .avue-sidebar .el-submenu__title:hover span {
+  color: #409EFF;
+}
+
+.theme-star .avue-sidebar .el-menu-item.is-active,
+.theme-star .avue-sidebar .el-submenu__title.is-active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.theme-star .avue-sidebar .el-menu-item.is-active i,
+.theme-star .avue-sidebar .el-menu-item.is-active span,
+.theme-star .avue-sidebar .el-submenu__title.is-active i,
+.theme-star .avue-sidebar .el-submenu__title.is-active span {
+  color: #fff;
+}
+
+.theme-star .top-search .el-input__inner {
+  color: #333;
+}
+
+.theme-star .top-search input::-webkit-input-placeholder,
+.theme-star .top-search textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+
+.theme-star .top-search input:-moz-placeholder,
+.theme-star .top-search textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+.theme-star .top-search input::-moz-placeholder,
+.theme-star .top-search textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+.theme-star .top-search input:-ms-input-placeholder,
+.theme-star .top-search textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+}
+
+.theme-star .top-bar__item i {
+  color: #fff;
+}
+
+.theme-vip .avue-header {
+  background-color: #20222a;
+}
+
+.theme-vip .el-dropdown {
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .avue-logo .avue-logo_title {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(246, 202, 157, 0.7)), to(#f6ca9d));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+}
+
+.theme-vip .avue-breadcrumb i {
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .avue-sidebar .el-menu-item.is-active:before {
+  background: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .avue-sidebar .el-menu-item.is-active i,
+.theme-vip .avue-sidebar .el-menu-item.is-active span {
+  color: #f6ca9d;
+}
+
+.theme-vip .avue-tags .el-tabs__item {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.theme-vip .avue-tags .el-tabs__item.is-active {
+  color: #f6ca9d !important;
+  border-color: #f6ca9d !important;
+}
+
+.theme-vip .avue-tags .el-tabs__item:before {
+  background: #f6ca9d;
+}
+
+.theme-vip .top-search .el-input__inner {
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .top-search input::-webkit-input-placeholder,
+.theme-vip .top-search textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .top-search input:-moz-placeholder,
+.theme-vip .top-search textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .top-search input::-moz-placeholder,
+.theme-vip .top-search textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .top-search input:-ms-input-placeholder,
+.theme-vip .top-search textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .top-bar__item i {
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .avue-top .el-menu-item i,
+.theme-vip .avue-top .el-menu-item span {
+  color: rgba(246, 202, 157, 0.7);
+}
+
+.theme-vip .avue-top .el-menu-item:hover i,
+.theme-vip .avue-top .el-menu-item:hover span {
+  color: #f6ca9d;
+}
+
+.theme-d2 .avue-logo {
+  color: #409EFF;
+  background-color: #ebf1f6;
+  box-shadow: none;
+}
+
+.theme-d2 .avue-logo .avue-logo_title {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.theme-d2 .avue-top {
+  background-color: #ebf1f6;
+  box-shadow: none;
+}
+
+.theme-d2 .avue-main {
+  padding: 0 0.3125rem;
+}
+
+.theme-d2 .avue-tags {
+  margin-left: 0.375rem;
+  padding: 0;
+  border: 0.0625rem solid #e4e7ed;
+  border-radius: 0.1875rem;
+  background-color: #ebf1f6;
+  box-shadow: none;
+}
+
+.theme-d2 .avue-tags .el-tabs__item {
+  border-left: 0.0625rem solid #cfd7e5 !important;
+  margin: 0 !important;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  color: #606266 !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+}
+
+.theme-d2 .avue-tags .el-tabs__item:first-child {
+  border-left: none !important;
+}
+
+.theme-d2 .avue-tags .is-active {
+  border-bottom: 0.0625rem solid #fff !important;
+  background-color: #fff !important;
+  color: #409EFF !important;
+}
+
+.theme-d2 .avue-sidebar {
+  background-color: #ebf1f6;
+  box-shadow: none;
+}
+
+.theme-d2 .avue-sidebar .el-menu-item i,
+.theme-d2 .avue-sidebar .el-menu-item span,
+.theme-d2 .avue-sidebar .el-submenu__title i,
+.theme-d2 .avue-sidebar .el-submenu__title span {
+  color: #606266;
+}
+
+.theme-d2 .avue-sidebar .el-menu-item:hover,
+.theme-d2 .avue-sidebar .el-menu-item.is-active,
+.theme-d2 .avue-sidebar .el-submenu__title:hover,
+.theme-d2 .avue-sidebar .el-submenu__title.is-active {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.theme-d2 .avue-sidebar .el-menu-item:hover i,
+.theme-d2 .avue-sidebar .el-menu-item:hover span,
+.theme-d2 .avue-sidebar .el-menu-item.is-active i,
+.theme-d2 .avue-sidebar .el-menu-item.is-active span,
+.theme-d2 .avue-sidebar .el-submenu__title:hover i,
+.theme-d2 .avue-sidebar .el-submenu__title:hover span,
+.theme-d2 .avue-sidebar .el-submenu__title.is-active i,
+.theme-d2 .avue-sidebar .el-submenu__title.is-active span {
+  color: #409EFF;
+}
+
+.theme-bule .avue-header,
+.theme-bule .avue-logo {
+  background: #004ca7;
+}
+
+.theme-bule .avue-sidebar {
+  background: #004ca7;
+}
+
+.theme-bule .avue-sidebar .el-menu-item.is-active,
+.theme-bule .avue-sidebar .el-submenu__title.is-active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.theme-bule .el-dropdown {
+  color: #fff;
+}
+
+.theme-bule .avue-logo .avue-logo_title {
+  color: #fff;
+}
+
+.theme-bule .avue-breadcrumb i {
+  color: #fff;
+}
+
+.theme-bule .top-bar__item i {
+  color: #fff;
+}
+
+.theme-bule .avue-top .el-menu-item i,
+.theme-bule .avue-top .el-menu-item span {
+  color: #fff;
+}
+
+.theme-bule .avue-top .el-menu-item:hover i,
+.theme-bule .avue-top .el-menu-item:hover span {
+  color: #fff;
+}
+
+.theme-iview .avue-logo {
+  background: #001529;
+  box-shadow: none;
+  text-align: center;
+}
+
+.theme-iview .avue-logo .avue-logo_title {
+  padding: 0.3125rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.3125rem 0.3125rem 0.1875rem 0.1875rem;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 500;
+  display: inline;
+  background-color: #409EFF;
+}
+
+.theme-iview .avue-tags {
+  padding: 0.1875rem 0.3125rem 0.3125rem 0;
+  background: #f0f0f0;
+  box-shadow: inset 0 0 0.1875rem 0.125rem rgba(100, 100, 100, 0.1);
+}
+
+.theme-iview .avue-tags .is-active:before {
+  background: #409EFF !important;
+}
+
+.theme-iview .avue-tags .el-tabs__item {
+  padding: 0 0.9375rem !important;
+  position: relative;
+  height: 2rem !important;
+  line-height: 2rem !important;
+  border: 0.0625rem solid #e8eaec !important;
+  color: #515a6e !important;
+  background: #fff !important;
+  border-radius: 0.1875rem;
+}
+
+.theme-iview .avue-tags .el-tabs__item:before {
+  content: '';
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.625rem;
+  border-radius: 50%;
+  background: #e8eaec;
+}
+
+.theme-iview .avue-sidebar {
+  background: #001529;
+}
+
+.theme-iview .avue-sidebar .el-menu-item.is-active {
+  background-color: #000c17;
+}
+
+.theme-iview .avue-sidebar .el-menu-item.is-active:before {
+  display: none;
+}
+
+.theme-iview .avue-sidebar .el-menu-item.is-active i,
+.theme-iview .avue-sidebar .el-menu-item.is-active span {
+  color: #409EFF;
+}
+
+.theme-iview .avue-sidebar .el-submenu .el-menu-item.is-active {
+  background-color: #409EFF;
+}
+
+.theme-iview .avue-sidebar .el-submenu .el-menu-item.is-active:before {
+  display: none;
+}
+
+.theme-iview .avue-sidebar .el-submenu .el-menu-item.is-active i,
+.theme-iview .avue-sidebar .el-submenu .el-menu-item.is-active span {
+  color: #fff;
+}
+
+.theme-hey .avue-sidebar {
+  background-color: #fff;
+  box-shadow: 0 0.0625rem 0.25rem rgba(0, 21, 41, 0.08);
+}
+
+.theme-hey .avue-sidebar .el-menu-item i,
+.theme-hey .avue-sidebar .el-menu-item span,
+.theme-hey .avue-sidebar .el-submenu__title i,
+.theme-hey .avue-sidebar .el-submenu__title span {
+  color: rgba(49, 58, 70, 0.8);
+}
+
+.theme-hey .avue-sidebar .el-menu-item:hover,
+.theme-hey .avue-sidebar .el-submenu__title:hover {
+  background: transparent;
+}
+
+.theme-hey .avue-sidebar .el-menu-item:hover i,
+.theme-hey .avue-sidebar .el-menu-item:hover span,
+.theme-hey .avue-sidebar .el-submenu__title:hover i,
+.theme-hey .avue-sidebar .el-submenu__title:hover span {
+  color: #409eff;
+}
+
+.theme-hey .avue-sidebar .el-menu-item.is-active,
+.theme-hey .avue-sidebar .el-submenu__title.is-active {
+  background-color: #f0f6ff;
+}
+
+.theme-hey .avue-sidebar .el-menu-item.is-active:before,
+.theme-hey .avue-sidebar .el-submenu__title.is-active:before {
+  left: auto;
+  right: 0;
+}
+
+.theme-hey .avue-sidebar .el-menu-item.is-active i,
+.theme-hey .avue-sidebar .el-menu-item.is-active span,
+.theme-hey .avue-sidebar .el-submenu__title.is-active i,
+.theme-hey .avue-sidebar .el-submenu__title.is-active span {
+  color: #409eff;
+}
+
+.theme-hey .avue-logo {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.theme-hey .avue-logo .avue-logo_title {
+  color: #409eff;
+  font-size: 1.25rem;
+}
+
+.theme-hey .avue-tags {
+  background: #f3f6f8;
+}
+
+.theme-hey .avue-tags .el-tabs__item {
+  color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.theme-hey .avue-tags .is-active {
+  background-color: #fff;
+  border-bottom: none !important;
+}
+
+.theme-lte .avue-logo {
+  background-color: #409EFF;
+}
+
+.theme-lte .avue-logo .avue-logo_title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.theme-lte .avue-tags .el-tabs__item {
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+}
+
+.theme-lte .avue-sidebar {
+  background-color: #263238;
+}
+
+.theme-lte .avue-sidebar .el-menu-item i,
+.theme-lte .avue-sidebar .el-menu-item span,
+.theme-lte .avue-sidebar .el-submenu__title i,
+.theme-lte .avue-sidebar .el-submenu__title span {
+  color: #8a979e;
+}
+
+.theme-lte .avue-sidebar .el-menu-item:hover,
+.theme-lte .avue-sidebar .el-submenu__title:hover {
+  background-color: #2b373d;
+}
+
+.theme-lte .avue-sidebar .el-menu-item.is-active,
+.theme-lte .avue-sidebar .el-submenu__title.is-active {
+  background-color: #2b373d;
+}
+
+.theme-lte .avue-sidebar .el-menu-item.is-active:before,
+.theme-lte .avue-sidebar .el-submenu__title.is-active:before {
+  display: none;
+}
+
+.theme-lte .avue-sidebar .el-menu-item.is-active i,
+.theme-lte .avue-sidebar .el-menu-item.is-active span,
+.theme-lte .avue-sidebar .el-submenu__title.is-active i,
+.theme-lte .avue-sidebar .el-submenu__title.is-active span {
+  color: #fff;
+}
+
+.theme-cool .el-menu--popup .el-menu-item {
+  background-color: #fff;
+}
+
+.theme-cool .el-menu--popup .el-menu-item i,
+.theme-cool .el-menu--popup .el-menu-item span {
+  color: #666;
+}
+
+.theme-cool .el-menu--popup .el-menu-item:hover i,
+.theme-cool .el-menu--popup .el-menu-item:hover span {
+  color: #333;
+}
+
+.theme-cool .el-menu--popup .el-menu-item.is-active {
+  background-color: #409EFF;
+}
+
+.theme-cool .el-menu--popup .el-menu-item.is-active:before {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0.25rem;
+  background: #409eff;
+  position: absolute;
+}
+
+.theme-cool .el-menu--popup .el-menu-item.is-active i,
+.theme-cool .el-menu--popup .el-menu-item.is-active span {
+  color: #fff;
+}
+
+.theme-cool .avue-header {
+  background: linear-gradient(120deg, #25aff3, #008ad3);
+}
+
+.theme-cool .avue-tags {
+  padding: 0 0.1875rem;
+  margin: 0.5rem 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.theme-cool .avue-tags .el-tabs__header .el-tabs__item {
+  padding: 0 0.625rem !important;
+  background-color: #fff;
+  margin-right: 0.3125rem;
+  color: #909399;
+  border-radius: 0.1875rem;
+  height: 1.875rem;
+  font-size: 0.75rem;
+  line-height: 1.875rem;
+}
+
+.theme-cool .avue-tags .el-tabs__header .el-tabs__item.is-active {
+  border: none;
+  color: #008ad3;
+}
+
+.theme-cool .avue-logo {
+  background: #fff;
+  box-shadow: none;
+}
+
+.theme-cool .avue-sidebar--tip {
+  background-color: transparent;
+  color: #333;
+}
+
+.theme-cool .el-dropdown {
+  color: #fff;
+}
+
+.theme-cool .avue-logo_title {
+  font-weight: 400;
+  color: #008ad3;
+}
+
+.theme-cool .logo_title,
+.theme-cool .avue-breadcrumb {
+  color: #fff;
+}
+
+.theme-cool .logo_title i,
+.theme-cool .avue-breadcrumb i {
+  color: #fff;
+}
+
+.theme-cool .avue-top .el-menu-item i,
+.theme-cool .avue-top .el-menu-item span {
+  color: #fff;
+}
+
+.theme-cool .avue-top .el-menu-item:hover i,
+.theme-cool .avue-top .el-menu-item:hover span {
+  color: #fff;
+}
+
+.theme-cool .avue-sidebar {
+  box-shadow: 0.125rem 0 0.375rem rgba(0, 21, 41, 0.15);
+  background-color: #fff;
+  padding-top: 4.375rem;
+}
+
+.theme-cool .avue-sidebar .el-menu-item,
+.theme-cool .avue-sidebar .el-submenu__title {
+  font-size: 0.8125rem;
+}
+
+.theme-cool .avue-sidebar .el-menu-item i,
+.theme-cool .avue-sidebar .el-menu-item span,
+.theme-cool .avue-sidebar .el-submenu__title i,
+.theme-cool .avue-sidebar .el-submenu__title span {
+  color: #000;
+}
+
+.theme-cool .avue-sidebar .el-menu-item:hover,
+.theme-cool .avue-sidebar .el-submenu__title:hover {
+  background: transparent;
+}
+
+.theme-cool .avue-sidebar .el-menu-item:hover i,
+.theme-cool .avue-sidebar .el-menu-item:hover span,
+.theme-cool .avue-sidebar .el-submenu__title:hover i,
+.theme-cool .avue-sidebar .el-submenu__title:hover span {
+  color: #000;
+}
+
+.theme-cool .avue-sidebar .el-menu-item.is-active,
+.theme-cool .avue-sidebar .el-submenu__title.is-active {
+  background-color: #e5f1fb;
+}
+
+.theme-cool .avue-sidebar .el-menu-item.is-active::before,
+.theme-cool .avue-sidebar .el-submenu__title.is-active::before {
+  width: 0;
+}
+
+.theme-cool .avue-sidebar .el-menu-item.is-active i,
+.theme-cool .avue-sidebar .el-menu-item.is-active span,
+.theme-cool .avue-sidebar .el-submenu__title.is-active i,
+.theme-cool .avue-sidebar .el-submenu__title.is-active span {
+  color: #25aff3;
+}
+
+.theme-cool .top-search .el-input__inner {
+  color: #333;
+}
+
+.theme-cool .top-search input::-webkit-input-placeholder,
+.theme-cool .top-search textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+
+.theme-cool .top-search input:-moz-placeholder,
+.theme-cool .top-search textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+.theme-cool .top-search input::-moz-placeholder,
+.theme-cool .top-search textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+.theme-cool .top-search input:-ms-input-placeholder,
+.theme-cool .top-search textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+}
+
+.theme-cool .top-bar__item i {
+  color: #fff;
+}
+
+.avue-left,
+.avue-header,
+.avue-top,
+.avue-logo,
+.avue-layout .login-logo,
+.avue-main {
+  transition: all 0.3s;
+}
+
+.avue-contail {
+  width: 100%;
+  height: 100%;
+  background: #f0f2f5;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.avue-left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 15rem;
+  height: 100%;
+  z-index: 1025;
+}
+
+.avue--collapse .avue-left,
+.avue--collapse .avue-logo {
+  width: 3.75rem;
+}
+
+.avue--collapse .avue-header {
+  padding-left: 3.75rem;
+}
+
+.avue--collapse .avue-main {
+  width: calc(100% - 3.75rem);
+  left: 3.75rem;
+}
+
+.avue-header {
+  padding-left: 15rem;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.avue-main {
+  position: absolute;
+  left: 15rem;
+  padding: 0 0 1.25rem;
+  width: calc(100% - 15rem);
+  height: calc(100% - 4rem);
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all 0.5s;
+  background: #f0f2f5;
+  z-index: auto;
+}
+
+.avue-main--fullscreen {
+  width: 100%;
+  left: 0;
+}
+
+.avue-view {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.avue-footer {
+  margin: 0 auto;
+  padding: 0 1.375rem;
+  width: 81.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avue-footer .logo {
+  margin-left: -3.125rem;
+}
+
+.avue-footer .copyright {
+  color: #666;
+  line-height: 1.5;
+  font-size: 0.75rem;
+}
+
+.avue-shade {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1024;
+}
+
+.avue-shade--show {
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+  .el-dialog,
+  .el-message-box {
+    width: 98% !important;
+  }
+
+  .login-left {
+    display: none !important;
+  }
+
+  .login-logo {
+    padding-top: 1.875rem !important;
+    margin-left: -1.875rem;
+  }
+
+  .login-weaper {
+    margin: 0 auto;
+    width: 96% !important;
+  }
+
+  .login-border {
+    border-radius: 0.3125rem;
+    padding: 2.5rem;
+    margin: 0 auto;
+    float: none !important;
+    width: 100% !important;
+  }
+
+  .login-main {
+    width: 100% !important;
+  }
+
+  .avue-tags {
+    display: none;
+  }
+
+  .avue-left,
+  .avue-logo {
+    left: -15rem;
+  }
+
+  .avue-main {
+    left: 0;
+    width: 100%;
+  }
+
+  .avue-header {
+    margin-bottom: 0.9375rem;
+    padding-left: 0.9375rem;
+  }
+
+  .top-bar__item {
+    display: none;
+  }
+
+  .avue--collapse .avue-left,
+  .avue--collapse .avue-logo {
+    width: 15rem;
+    left: 0;
+  }
+
+  .avue--collapse .avue-main {
+    left: 15rem;
+    width: 100%;
+  }
+
+  .avue--collapse .avue-header {
+    padding: 0;
+    transform: translate3d(14.375rem, 0, 0);
+  }
+
+  .avue--collapse .avue-shade {
+    display: block;
+  }
+}
+
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+
+/*
+/*! 我就是自己看看，然后翻译下下，让大家看看 */
+
+/* ==========================================================================
+   HTML5 display definitions
+
+   HTML5 新增元素定义
+
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ *
+ * 修正IE 8/9 中未定义的块级元素。
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+  * Correct `inline-block` display not defined in IE 8/9.
+  *
+  * 修正在 IE 8/9 中未定义的 'inline-block' 元素。
+  */
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+  * Prevent modern browsers from displaying `audio` without controls.
+  * Remove excess height in iOS 5 devices.
+  *
+  * 阻止现在浏览器显示未定义 control 播放控件的 'audio' 声音元素。
+  * 删除 IOS 5 设备中显示的多余的高度。
+  */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+  * Address styling not present in IE 8/9.
+  *
+  * 处理 IE 8/9 中不存在的样式。
+  */
+
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+    Base
+ 
+    基本设置
+    ========================================================================== */
+
+/**
+  * 1. Set default font family to sans-serif.
+  * 2. Prevent iOS text size adjust after orientation change, without disabling
+  *    user zoom.
+  *
+  * 1. 设置默认字体类型为 sans-serif.
+  * 2. 当用户放大或缩小页面时不改变字体大小。
+  */
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+  * Remove default margin.
+  *
+  * 删除默认边距。
+  */
+
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+    Links
+ 
+    链接
+    ========================================================================== */
+
+/**
+  * Address `outline` inconsistency between Chrome and other browsers.
+  *
+  * 处理 Chrome 与其它浏览器中关于 'outline' 的不一致性。
+  */
+
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+  * Improve readability when focused and also mouse hovered in all browsers.
+  *
+  * 为所有浏览器改善当激活或悬停在元素上时元素内容的可读性。
+  */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+    Typography
+ 
+    排版
+    ========================================================================== */
+
+/**
+  * Address variable `h1` font-size and margin within `section` and `article`
+  * contexts in Firefox 4+, Safari 5, and Chrome.
+  *
+  * 处理多变的 'h1' 字体大小及其在 Firefox 4+, Safari 5, 及 Chrome时浏览器中的 
+  * 'section' 与　'article' 元素中的边距。
+  */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+  * Address styling not present in IE 8/9, Safari 5, and Chrome.
+  *
+  * 处理在 IE 8/9, Safari 5, 及 Chrome 没有的样式。
+  */
+
+abbr[title] {
+  border-bottom: 0.0625rem dotted;
+}
+
+/**
+  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+  *
+  * 处理 Firefox 4+, Safari 5, 及 Chrome 中默认的 'bolder' 样式为　'bold'.
+  */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+  * Address styling not present in Safari 5 and Chrome.
+  *
+  * 处理在 Safari 5 和 Chrome 没有的样式。
+  */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+  * Address differences between Firefox and other browsers.
+  *
+  * 处理　Firefox　与其它浏览器的差异。
+  */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+  * Address styling not present in IE 8/9.
+  *
+  * 处理在 IE 8/9 中没有的样式。
+  */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+  * Correct font family set oddly in Safari 5 and Chrome.
+  *
+  * 修正确 Safari 5 和 Chrome 中古怪的默认字体。
+  */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+  * Improve readability of pre-formatted text in all browsers.
+  *
+  * 为所有浏览器改善预格式化文本的可读性。
+  */
+
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+  * Set consistent quote types.
+  *
+  * 设置一致的引用格式。
+  */
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+  * Address inconsistent and variable font size in all browsers.
+  *
+  * 处理所有浏览器中字体大小的不一致性[译者注：原文直译为：处理所有
+  * 浏览器中的不一致和多变的字体大小]。
+  */
+
+small {
+  font-size: 80%;
+}
+
+/**
+  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+  *
+  * 阻止所有浏览器中 'sub' 和 'sup' 元素影响 'line-height'. 
+  * [译者注：就是不让上标与下标影响行高。]
+  */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+    Embedded content
+ 
+    嵌入的内容
+    ========================================================================== */
+
+/**
+  * Remove border when inside `a` element in IE 8/9.
+  *
+  * 删除 IE 8/9 中当内容位于 'a' 中出现的边框。
+  */
+
+img {
+  border: 0;
+}
+
+/**
+  * Correct overflow displayed oddly in IE 9.
+  *
+  * 修正 IE 9 中显示古怪的溢出内容。
+  */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+    Figures
+ 
+    Figure 图像/图表/代码等
+    ========================================================================== */
+
+/**
+  * Address margin not present in IE 8/9 and Safari 5.
+  *
+  * 处理在 IE 8/9 和 Safari 5 没有的边距。
+  */
+
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+    Forms
+    ========================================================================== */
+
+/**
+  * Define consistent border, margin, and padding.
+  *
+  * 定义一致的边框、外边距及内边距。
+  */
+
+fieldset {
+  border: 0.0625rem solid #c0c0c0;
+  margin: 0 0.125rem;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+  * 1. Correct `color` not being inherited in IE 8/9.
+  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+  * 1. 修正在　IE 8/9 中没有继承的 'color'. 
+  *
+  *    [译者注：说是修正颜色嘛，可下面没有关于颜色的呀，这也行？求大神解释！]
+  * 2. 去掉内边距，避免当用户清空表单组时认为出错了。
+  */
+
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+  * 1. Correct font family not being inherited in all browsers.
+  * 2. Correct font size not being inherited in all browsers.
+  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+  *
+  * 1. 修正所有浏览器中未被继承的字体类型。
+  * 2. 修正所有浏览器中未被继承的字体大小。
+  * 3. 处理 Firefox 4+, Safari 5, 及 Chrome 中默认设置不同的外边距。
+  */
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+  * the UA stylesheet.
+  *
+  * 处理 Firefox 4+ 中的客户端样式表里使用 '!important' 设置的 'line-height'.
+  */
+
+button,
+input {
+  line-height: normal;
+}
+
+/**
+  * Address inconsistent `text-transform` inheritance for `button` and `select`.
+  * All other form control elements do not inherit `text-transform` values.
+  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+  * Correct `select` style inheritance in Firefox 4+ and Opera.
+  * 
+  * 处理 'button' 和 'select' 的 'text-transform' 继承的不一致性。
+  * 所有其它表单控件元素不继承 'text-transform' 的值。
+  * 修正 Chrome, Safari 5+, 及 IE 8+ 中 'button' 的继承样式。
+  * 修正 Firefox 4+ 和 Opera 中 'select' 的继承样式。
+  */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+  *    and `video` controls.
+  * 2. Correct inability to style clickable `input` types in iOS.
+  * 3. Improve usability and consistency of cursor style between image-type
+  *    `input` and others.
+  *
+  * 1. 避免 Android 4.0.* 中 WebKit 的一个bug, 防止 'audio' 与 'video' 的播放控件失效。
+  * 2. 修正 iOS 中不可点击的 'input' 样式。
+  * 3. 改善图片类型的 'input' 等光标样式的可用性与一致性。
+  */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+  * Re-set default cursor for disabled elements.
+  * 
+  * 重置不可用元素的默认光标样式。
+  */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+  * 1. Address box sizing set to `content-box` in IE 8/9.
+  * 2. Remove excess padding in IE 8/9.
+  *
+  * 1. 处理 IE 8/9 中设置为 'content-box' 的盒子模型。
+  * 2. 删除 IE 8/9 中多余的内边距。
+  */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+  *    (include `-moz` to future-proof).
+  *
+  * 1. 处理 Safari 5 和 Chrome 中默认设置为 'appearance' 的 'searchfield'.
+  * 2. 处理 Safari 5 和 Chrome 中默认设置为 'box-sizing' 的 'border-box'
+  *    (包括不会过时的 '-moz').
+  */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+  * Remove inner padding and search cancel button in Safari 5 and Chrome
+  * on OS X.
+  *
+  * 删除 Safari 5 和 OS X 上的 Chrome 中的输入框上的内边距和搜索取消按钮。
+  */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+  * Remove inner padding and border in Firefox 4+.
+  *
+  * 删除 Firefox 4+ button 与 input 上的内边距。
+  */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+  * 1. Remove default vertical scrollbar in IE 8/9.
+  * 2. Improve readability and alignment in all browsers.
+  *
+  * 1. 删除 IE8/9 中默认的垂直滚动条。
+  * 2. 改善所有浏览器中的可读性并使文本垂直对齐。
+  */
+
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+    Tables
+ 
+    表格
+    ========================================================================== */
+
+/**
+  * Remove most spacing between table cells.
+  *
+  * 删除表格里单元格间的间距。
+  */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.basic-container .el-card {
+  overflow-x: auto;
+}
+
+.avue-top {
+  height: 5rem;
+  line-height: 5rem;
+  box-shadow: none;
+  background: #225DC8;
+}
+
+.avue-left {
+  top: 5rem;
+  width: 17.1875rem;
+  z-index: 99;
+  height: calc(100% - 5rem);
+}
+
+.avue-sidebar {
+  background: #fff;
+  box-shadow: none;
+}
+
+.top-bar__left {
+  position: fixed;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 2.5rem;
+  z-index: 100;
+  left: 0.625rem;
+  top: 5rem;
+}
+
+.top-bar__item {
+  padding: 0 17.8125rem 0 27.5rem;
+  width: 100%;
+  height: 5rem;
+  box-sizing: border-box;
+}
+
+.top-menu {
+  width: 100%;
+  overflow-x: auto;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.avue-top .el-menu.el-menu--horizontal {
+  white-space: nowrap;
+}
+
+.avue-top .el-menu li {
+  float: none;
+  display: inline-block;
+}
+
+.avue--collapse .avue-header {
+  transform: translate3d(0, 0, 0);
+}
+
+.avue--collapse .avue-header {
+  padding-left: 0;
+}
+
+.avue-header {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.top-bar__left i {
+  line-height: 2.5rem;
+}
+
+.avue-sidebar .el-menu-item:hover i,
+.avue-sidebar .el-menu-item:hover span,
+.avue-sidebar .el-submenu__title:hover i,
+.avue-sidebar .el-submenu__title:hover span {
+  color: #000;
+}
+
+.avue-sidebar .el-menu-item i,
+.avue-sidebar .el-menu-item span,
+.avue-sidebar .el-submenu__title i,
+.avue-sidebar .el-submenu__title span {
+  color: #333;
+}
+
+.avue-sidebar .el-menu-item.is-active,
+.avue-sidebar .el-submenu__title.is-active {
+  background: #2F79EA;
+  color: #FFFFFF;
+}
+
+.avue-sidebar .el-menu-item.is-active:hover i,
+.avue-sidebar .el-menu-item.is-active:hover span,
+.avue-sidebar .el-submenu__title.is-active:hover span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.avue-header h1 {
+  line-height: 5rem;
+  font-size: 1.75rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 3.75rem;
+  top: 0;
+}
+
+.avue-top .el-menu-item i,
+.avue-top .el-menu-item span {
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.top-bar__right {
+  height: 5rem;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+  display: flex;
+}
+
+.top-bar__right span,
+.top-bar__right span a {
+  cursor: pointer;
+  color: #fff;
+}
+
+.top-bar__right span {
+  height: 1.8125rem;
+  line-height: 1.8125rem;
+  display: inline-block;
+  margin-left: 1.25rem;
+  font-size: 0.875rem;
+}
+
+.top-bar__right i {
+  height: 1.8125rem;
+  line-height: 1.8125rem;
+  font-size: 1.375rem;
+  vertical-align: top;
+}
+
+.avue-top .el-menu--horizontal > .el-menu-item {
+  height: 5rem;
+  line-height: 5rem;
+  vertical-align: top;
+}
+
+.el-badge {
+  vertical-align: top;
+}
+
+.top-search {
+  margin-top: 0.8125rem;
+}
+
+.top-bar__right span span {
+  margin-left: 0;
+}
+
+.avue-main {
+  height: calc(100% - 5rem);
+  width: calc(100% - 17.1875rem);
+  left: 17.1875rem;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .avue-left {
+    left: -17.1875rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .avue--collapse .avue-left,
+  .avue--collapse .avue-logo {
+    width: 17.1875rem;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .avue-main {
+    left: 0;
+    width: 100%;
+  }
+}
+
+.el-breadcrumb {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding-left: 1.25rem;
+}
+
+.el-card__body {
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.basic-container {
+  padding: 0 0.625rem !important;
+}
+
+.basic-container,
+.basic-container__card {
+  min-height: 100%;
+}
+
+.el-card {
+  box-sizing: border-box;
+}
+
+.el-submenu__title {
+  padding-left: 1.875rem;
+}
+
+.el-submenu .el-menu-item {
+  padding-left: 3.125rem;
+}
+
+#avue-view {
+  height: calc(100% - 2.5rem) !important;
+}
+
+.avue-crud .el-table th {
+  background: #e0e0e0;
+}
+
+.avue_crud_change1 .avue-crud__menu .el-radio-button__orig-radio:checked + .el-radio-button__inner,
+.isFold,
+.el-button--text {
+  color: #4877e3;
+}
+
+.avue_crud_change1 .avue-crud__menu .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  border-bottom: 0.125rem solid #4877e3;
+}
+
+.el-button--primary {
+  background: #4877e3;
+  border-color: #4877e3;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+  background: #3563ce;
+  border-color: #3563ce;
+}
+
+.el-table,
+.el-upload-list__item-name,
+.avue-group__title,
+.avue-dialog .el-dialog__title,
+.avue-dialog .el-drawer__header,
+.el-dialog__body,
+.el-input__inner,
+.el-autocomplete-suggestion li {
+  color: #333;
+  cursor: pointer;
+}
+
+.avue-contail {
+  background: #f3f3f3;
+}
+
+.avue-sidebar--tip {
+  background: none;
+  color: #999;
+}
+
+.avue-crud__right {
+  display: none;
+}
+
+.avue_crud_change1 .el-radio-group {
+  display: block;
+}
+
+.avue_crud_change1 .el-card {
+  position: relative;
+}
+
+.avue_crud_change1 .avue-crud__menu {
+  margin-bottom: 0;
+}
+
+.avue_crud_change1 .avue-crud__menu .el-button:first-child {
+  margin-bottom: 0.625rem;
+}
+
+.avue_crud_change1 .avue-crud__menu .el-radio-button .el-radio-button__inner {
+  border: 0;
+  border-radius: 0 !important;
+  color: #606266;
+  box-shadow: none;
+  font-size: 0.875rem;
+  border-bottom: 0.125rem solid #fff;
+  padding-bottom: 0.9375rem;
+}
+
+.avue_crud_change1 .avue-crud__menu .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background-color: #fff;
+  border: 0;
+  border-bottom: 0.125rem solid #0073eb;
+}
+
+.avue_crud_change1 .el-collapse-item__wrap {
+  position: relative;
+}
+
+.avue_crud_change1 .avue-form__group--flex {
+  width: 72%;
+  transition: height 1s linear 2s;
+  /* Safari */
+  -webkit-transition: height 1s linear 2s;
+}
+
+.avue_crud_change1 .fadeOutHeight {
+  height: 2.875rem;
+}
+
+.avue_crud_change1 .fadeInHeight {
+  height: auto;
+}
+
+.avue_crud_change1 .avue-form__group--flex .el-col {
+  width: 50%;
+}
+
+.avue_crud_change1 .avue-form__group--flex .no-print {
+  position: absolute;
+  right: 0;
+  width: 29%;
+}
+
+.isFold {
+  position: absolute;
+  right: 0;
+  line-height: 2.0625rem;
+  z-index: 10;
+  color: #0073eb;
+}
+
+.diffFlag {
+  color: red;
+}
+
+html,
+div,
+body,
+ol,
+ul,
+fieldset,
+legend,
+label,
+form,
+input,
+span,
+textarea,
+select {
+  font-size: 0.875rem;
+}
+
+.el-form-item__content {
+  line-height: 2.5rem;
+  position: relative;
+  font-size: 0.875rem;
+}
+
+.el-cascader__tags .el-tag {
+  margin: 0.125rem 0 0.125rem 0.375rem;
+}
+
+.el-tag .el-icon-close {
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 0.75rem;
+  height: 1rem;
+  width: 1rem;
+  line-height: 1rem;
+  vertical-align: middle;
+  top: -0.0625rem;
+  right: -0.3125rem;
+}
+
+.el-tag--mini {
+  height: 1.25rem !important;
+  padding: 0 0.3125rem;
+  line-height: 1.1875rem;
+}
+
+.el-cascader__tags {
+  left: 0;
+  right: 1.875rem;
+  top: 50%;
+}
+
+.el-form-item__label,
+.el-table__cell .cell,
+.el-input__inner,
+.el-textarea__inner,
+.el-upload__tip,
+.el-checkbox__label,
+.el-message__content,
+.el-select .el-input .el-select__caret,
+.el-cascader .el-input .el-icon-arrow-down,
+.el-tree__empty-text,
+.el-tree-node__label,
+.el-tooltip {
+  font-size: 0.875rem;
+}
+
+.el-input__inner {
+  padding: 0 0.9375rem;
+}
+
+.el-table__cell span,
+.el-button,
+.el-table--mini,
+.el-table--small,
+.el-table__expand-icon {
+  font-size: 0.75rem;
+}
+
+.el-input--suffix .el-input__inner {
+  padding-right: 1.875rem;
+}
+
+.el-radio__label {
+  font-size: 0.875rem;
+  padding-left: 0.625rem;
+}
+
+.el-input-group__append {
+  border-left: 0 !important;
+}
+
+.el-input-group--prepend .el-input__inner,
+.el-input-group__append {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.el-input-group__append,
+.el-input-group__prepend {
+  border: 0.0625rem solid #DCDFE6;
+  border-radius: 0.25rem;
+  padding: 0 1.25rem;
+  width: 0.0625rem;
+}
+
+.el-select-dropdown .el-scrollbar .el-scrollbar__view .el-select-dropdown__item > span {
+  padding: 0 1.25rem;
+}
+
+.el-form-item--small .el-form-item__error {
+  padding-top: 0.125rem;
+}
+
+.el-form-item__error {
+  font-size: 0.75rem;
+  line-height: 1;
+  padding-top: 0.25rem;
+  top: 100%;
+  left: 0;
+}
+
+.avue-select__desc {
+  font-size: 0.8125rem;
+}
+
+.el-form-item--mini.el-form-item,
+.el-form-item--small.el-form-item {
+  margin-bottom: 1.125rem;
+}
+
+.el-cascader-node,
+.el-select-dropdown__item {
+  height: 2.125rem;
+  line-height: 2.125rem;
+}
+
+.el-checkbox__input.is-indeterminate .el-checkbox__inner::before {
+  height: 0.125rem;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  left: 0;
+  right: 0;
+  top: 0.3125rem;
+}
+
+.el-checkbox__inner::after {
+  border: 0.0625rem solid #FFF;
+  border-left: 0;
+  border-top: 0;
+  height: 0.4375rem;
+  left: 0.25rem;
+  position: absolute;
+  top: 0.0625rem;
+}
+
+.el-input--small {
+  font-size: 0.8125rem;
+}
+
+.el-cascader--small {
+  font-size: 0.8125rem;
+  line-height: 2rem;
+}
+
+.el-cascader {
+  display: inline-block;
+  position: relative;
+  font-size: 0.875rem;
+}
+
+.avue-crud__menu {
+  width: 100%;
+  min-height: 2.5rem;
+  margin-bottom: 0.3125rem;
+}
+
+.el-collapse-item:last-child {
+  margin-bottom: -0.0625rem;
+}
+
+.el-switch__core {
+  width: 2.5rem !important;
+  height: 1.25rem;
+  border: 0.0625rem solid #DCDFE6;
+  border-radius: 0.625rem;
+}
+
+.el-switch.is-checked .el-switch__core::after {
+  left: 100%;
+  margin-left: -1.0625rem;
+}
+
+.el-switch__core:after {
+  content: "";
+  position: absolute;
+  top: 0.0625rem;
+  left: 0.0625rem;
+  border-radius: 100%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 1rem;
+  height: 1rem;
+  background-color: #FFF;
+}
+
+.el-switch__label * {
+  line-height: 1;
+  font-size: 0.875rem;
+  display: inline-block;
+}
+
+.avue-group__title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.el-card__body {
+  padding: 1.25rem;
+}
+
+.el-input--mini .el-input__icon {
+  line-height: 1.75rem;
+}
+
+.el-input__icon {
+  height: 100%;
+  width: 1.5625rem;
+  text-align: center;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  line-height: 2.5rem;
+}
+
+.el-button span {
+  font-size: 0.75rem;
+}
+
+.el-button--small,
+.el-button--small.is-round {
+  padding: 0.5625rem 0.9375rem;
+}
+
+.el-button--text {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.el-button--mini,
+.el-button--small {
+  font-size: 0.75rem;
+  border-radius: 0.1875rem;
+}
+
+.el-button + .el-button {
+  margin-left: 0.625rem;
+}
+
+.el-form-item--small .el-form-item__content,
+.el-form-item--small .el-form-item__label {
+  line-height: 2rem;
+}
+
+.avue-crud .el-range-editor--small,
+.avue-form .el-range-editor--small {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.el-input--small .el-input__icon {
+  line-height: 2rem;
+}
+
+.el-range-editor--small .el-range__close-icon,
+.el-range-editor--small .el-range__icon {
+  line-height: 1.5rem;
+}
+
+.el-date-editor .el-range__icon {
+  font-size: 0.875rem;
+  margin-left: -0.3125rem;
+  color: #C0C4CC;
+  float: left;
+  line-height: 1.5rem;
+}
+
+.el-upload--picture-card {
+  background-color: #fbfdff;
+  border: 0.0625rem dashed #c0ccda;
+  border-radius: 0.375rem;
+  box-sizing: border-box;
+  width: 9.25rem;
+  height: 9.25rem;
+  line-height: 9.125rem;
+  vertical-align: top;
+}
+
+.el-cascader-node__label {
+  padding: 0 0.625rem;
+}
+
+.el-dialog__header {
+  padding: 1.25rem 1.25rem 0.625rem;
+}
+
+.avue-dialog .el-dialog__header {
+  padding: 1rem 1.5rem;
+  min-height: 1.25rem;
+  border-bottom: 0.0625rem solid #f0f0f0;
+}
+
+.el-dialog__title {
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  color: #303133;
+}
+
+.el-empty__description {
+  margin-top: 1.25rem;
+}
+
+.el-empty__description p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.el-checkbox__inner,
+.el-radio__inner {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.el-range-editor--small .el-range-input {
+  font-size: 0.8125rem;
+}
+
+.el-range-editor--small .el-range-separator {
+  line-height: 1.5rem;
+  font-size: 0.8125rem;
+}
+
+.el-date-editor .el-range-separator {
+  padding: 0 0.3125rem;
+  line-height: 2rem;
+  width: 5%;
+  color: #303133;
+}
+
+.avue-crud__dialog__menu i {
+  color: #909399;
+  font-size: 0.9375rem;
+}
+
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  padding: 0;
+  background: 0 0;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.el-upload-list--picture-card .el-upload-list__item {
+  overflow: hidden;
+  background-color: #fff;
+  border: 0.0625rem solid #c0ccda;
+  border-radius: 0.375rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 9.25rem;
+  height: 9.25rem;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+}
+
+.el-upload-list--picture-card .el-upload-list__item-actions {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  cursor: default;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  font-size: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.el-pager li {
+  padding: 0 0.25rem;
+  font-size: 0.8125rem;
+  min-width: 2.21875rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.el-pagination .el-select .el-input .el-input__inner {
+  padding-right: 1.5625rem;
+  border-radius: 0.1875rem;
+}
+
+.el-pagination__sizes .el-input .el-input__inner {
+  font-size: 0.8125rem;
+  padding-left: 0.5rem;
+}
+
+.avue-crud .el-input--mini input,
+.avue-form .el-input--mini input {
+  height: 1.75rem;
+  line-height: 1.75rem;
+}
+
+.el-pagination__editor.el-input .el-input__inner {
+  line-height: 1.75rem;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  margin: 0 0.3125rem;
+  background-color: #f4f4f5;
+  color: #606266;
+  min-width: 1.875rem;
+  border-radius: 0.125rem;
+}
+
+.el-pagination button,
+.el-pagination span:not([class*=suffix]) {
+  display: inline-block;
+  font-size: 0.8125rem;
+  min-width: 2.21875rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.el-pagination__total {
+  margin-right: 0.625rem;
+  font-weight: 400;
+  color: #606266;
+}
+
+.el-pagination__editor.el-input {
+  width: 3.125rem;
+}
+
+.el-pagination .el-select .el-input {
+  width: 6.25rem;
+  margin: 0 0.3125rem;
+}
+
+.el-pagination__editor.el-input .el-input__inner {
+  height: 1.75rem;
+}
+
+.el-pagination .btn-next .el-icon,
+.el-pagination .btn-prev .el-icon {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.el-input {
+  font-size: 0.875rem;
+}
+
+.el-pagination__editor {
+  line-height: 1.125rem;
+  padding: 0 0.125rem;
+  height: 1.75rem;
+  text-align: center;
+  margin: 0 0.125rem;
+  border-radius: 0.1875rem;
+}
+
+.my-autocomplete li .addr,
+.el-upload__tip {
+  color: #999;
+  font-size: 0.875rem;
+}
+
+.el-table .cell {
+  line-height: 1.4375rem;
+  padding-right: 0.625rem;
+}
+
+.avue-crud .el-input--small input,
+.avue-form .el-input--small input {
+  line-height: 2rem !important;
+}
+
+.avue-crud table td {
+  line-height: 1.625rem;
+}
+
+.el-table--small .el-table__cell {
+  padding: 0.5rem 0;
+}
+
+.el-textarea .el-input__count {
+  font-size: 0.75rem;
+  bottom: 0.3125rem;
+  right: 0.625rem;
+}
+
+.el-upload--picture-card i {
+  font-size: 1.75rem;
+}
+
+.el-date-picker__header {
+  margin: 0.75rem;
+}
+
+.el-date-picker .el-picker-panel__content {
+  width: 19.5rem;
+}
+
+.el-picker-panel__content {
+  margin: 0.9375rem;
+}
+
+.el-date-picker__header-label {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 0.3125rem;
+  line-height: 1.375rem;
+}
+
+.el-date-table,
+.el-picker-panel__icon-btn {
+  font-size: 0.75rem;
+}
+
+.el-popper[x-placement^=bottom] {
+  margin-top: 0.75rem;
+}
+
+.el-picker-panel {
+  color: #606266;
+  border: 0.0625rem solid #E4E7ED;
+  box-shadow: 0 0.125rem 0.75rem 0 rgba(0, 0, 0, 0.1);
+  background: #FFF;
+  border-radius: 0.25rem;
+  line-height: 1.875rem;
+  margin: 0.3125rem 0;
+}
+
+.el-date-picker {
+  width: 21.375rem;
+}
+
+.el-input--small .el-input__inner {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.el-date-table td div {
+  padding: 0.1875rem 0;
+}
+
+.el-date-table td,
+.el-date-table td div {
+  height: 1.875rem;
+}
+
+.avue-crud__tip {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+}
+
+.el-tag {
+  height: 2rem;
+  padding: 0 0.625rem;
+  line-height: 1.875rem;
+  font-size: 0.75rem;
+  border-width: 0.0625rem;
+  border-radius: 0.25rem;
+}
+
+.avue-crud__pagination {
+  padding: 1.5625rem 0 1.25rem 1.25rem;
+}
+
+.avue-crud__search .el-form-item--mini.el-form-item,
+.avue-crud__search .el-form-item--small.el-form-item {
+  margin-bottom: 0.875rem;
+}
+
+.el-empty {
+  padding: 2.5rem 0;
+}
+
+.el-table__empty-block {
+  min-height: 3.75rem;
+}
+
+.el-table__empty-text {
+  line-height: 3.75rem;
+}
+
+.avue-crud__empty {
+  padding: 3.75rem 0;
+}
+
+.iconfont {
+  font-size: 1rem !important;
+}
+
+.el-tree-node__content {
+  height: 1.625rem;
+}
+
+.el-input-number--small {
+  line-height: 1.875rem;
+}
+
+.el-input-number.is-controls-right[class*=small] [class*=decrease],
+.el-input-number.is-controls-right[class*=small] [class*=increase] {
+  line-height: 0.9375rem;
+}
+
+.el-input-number--small .el-input-number__decrease,
+.el-input-number--small .el-input-number__increase {
+  width: 2rem;
+  font-size: 0.8125rem;
+}
+
+.el-input-number.is-controls-right .el-input-number__decrease {
+  right: 0.0625rem;
+  bottom: 0.0625rem;
+}
+
+.avue-dialog .el-drawer__body {
+  padding: 1.875rem 0.625rem 3.75rem 1.875rem;
+}
+
+.avue-group__header {
+  height: 3.125rem;
+  line-height: 3.125rem;
+}
+
+.el-drawer__close-btn {
+  font-size: 1.25rem;
+}
+
+.el-table [class*=el-table__row--level] .el-table__expand-icon {
+  width: 1.25rem;
+  line-height: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.1875rem;
+}
+
+.el-dropdown-menu__item {
+  padding-top: 0.1875rem !important;
+  /* padding-bottom: 3px !important; */
+}
+
+.el-dropdown-menu__item {
+  line-height: 2.25rem;
+  padding: 0 1.25rem;
+  margin: 0;
+  font-size: 0.875rem;
+  outline: 0;
+}
+
+.el-dropdown-menu__item {
+  padding-top: 0.1875rem !important;
+  padding-bottom: 0.1875rem !important;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+* {
+  outline: none;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 0.4375rem;
+  height: 0.4375rem;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.3125rem;
+  background-color: rgba(144, 146, 152, 0.3);
+}
+
+/**
+*自定义样式
+*/
+
+.redColor {
+  color: #f00;
+}
+
+.greyColor {
+  color: #888;
+}
+
+.greenColor {
+  color: #093;
+}
+
+.linkCOlor {
+  color: #3a8ee6;
+}
+
+.yellowColor {
+  color: Darkorange;
+}
+
+.clearx:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearx {
+  zoom: 1;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.el-divider__text {
+  color: #409EFF !important;
+}
+
+.fillDialog .el-divider {
+  margin-bottom: 1.875rem !important;
+}
+
+.fillDialog .title {
+  margin: 1.25rem 0;
+  width: 6.25rem;
+  text-align: right;
+}
+
+.fillDialog .el-form-item {
+  margin-bottom: 1.25rem;
+}
+
+.fillDialog .des {
+  margin-bottom: 0.625rem;
+}
+
+.fillDialog .des label {
+  float: left;
+  width: 4.5rem;
+  text-align: right;
+}
+
+.fillDialog .des .div {
+  width: 100%;
+  padding-left: 5rem;
+  box-sizing: border-box;
+}
+
+.fillDialog .des1 label {
+  width: 7.5rem;
+}
+
+.fillDialog .des1 .div {
+  padding-left: 8.125rem;
+}
+
+.fillDialog .des1 .div .el-upload-list__item:first-child {
+  margin-top: 0;
+}
+
+.fillDialog .reslutForm .el-input {
+  width: 6.25rem;
+}
+
+.fillDialog .reslutForm .el-textarea {
+  width: 31.25rem;
+}
+
+.fillDialog .border {
+  border-bottom: 0.0625rem solid #ddd;
+  margin-bottom: 0.625rem;
+}
+
+.fillDialog .el-table__expanded-cell[class*=cell] {
+  padding: 0.625rem;
+}
+
+.fillDialog .workerCell {
+  background-color: #f5f5f5;
+  padding: 0.625rem;
+}
+
+.fillDialog label {
+  color: #999;
+}
+
+.el-image-viewer__wrapper {
+  z-index: 2100 !important;
+}
+
+.staticDrawer {
+  width: 80% !important;
+}
+
+.staticDrawer dl {
+  padding: 1.25rem;
+}
+
+.staticDrawer dt {
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 0.625rem;
+}
+
+.staticDrawer .t {
+  font-size: 0.875rem;
+  color: #000;
+  margin-bottom: 0.625rem;
+}
+
+.staticDrawer dd {
+  line-height: 1.375rem;
+}
+
+.fillDialog .el-upload-list--picture-card .el-upload-list__item,
+.fillDialog .el-upload--picture-card {
+  width: 6.25rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+}
+
+.fillDialog .tip {
+  margin-bottom: 0.9375rem;
+  color: #f00;
+}
+
+.fillDialog .el-form .avue-group .el-collapse-item__wrap {
+  padding-top: 0.625rem;
+}
+
+.dialog-footer .el-button {
+  margin: 0 0.625rem;
+}
+
+.customDrawer .drawerBody {
+  padding: 1.25rem 1.25rem 0.3125rem;
+}
+.basic-block {
+  opacity: 0;
+  box-sizing: border-box;
+  color: #fff;
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
+}
+.basic-block .box {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.9375rem;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+  background-size: cover;
+}
+.basic-block .box:hover {
+  transform: rotateY(360deg);
+}
+.basic-block a {
+  color: #fff;
+}
+.basic-block span {
+  display: block;
+  font-size: 1rem;
+}
+.basic-block p {
+  width: 80%;
+  font-size: 0.625rem;
+  color: #eee;
+  line-height: 1.375rem;
+}
+.basic-block i {
+  position: absolute;
+  bottom: 0.9375rem;
+  right: 0.9375rem;
+  font-size: 3.125rem !important;
+}
+@keyframes mymove {
+from {
+    opacity: 0;
+    transform: scale(0);
+}
+to {
+    opacity: 1;
+    transform: scale(1);
+}
+}
+.basic-container {
+  padding: 0.625rem 0.375rem;
+  box-sizing: border-box;
+}
+.basic-container--block {
+  height: 100%;
+}
+.basic-container--block .basic-container__card {
+  height: 100%;
+}
+.basic-container__card {
+  width: 100%;
+}
+.basic-container:first-child {
+  padding-top: 0;
+}
+.flow-design-dialog {
+  display: flex;
+  flex-direction: column;
+  margin: 0 !important;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  max-height: calc(100% - 1.875rem);
+  max-width: calc(100% - 1.875rem);
+}
+.flow-design-dialog .el-dialog__body {
+  flex: 1;
+  overflow: auto;
+}
+.w-e-toolbar {
+  flex-wrap: wrap;
+  -webkit-box-lines: multiple;
+}
+.w-e-toolbar .w-e-menu:hover {
+  z-index: 101 !important;
+}
+.w-e-text-container a,
+.w-e-menu a {
+  color: #333;
+  text-decoration: none;
+}
+.w-e-menu span {
+  font-size: 0.875rem;
+  color: #999;
+}
+.fullscreen-editor {
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+  background-color: white;
+  z-index: 9999;
+}
+.fullscreen-editor .w-e-text-container {
+  width: 100% !important;
+  height: 95% !important;
+}

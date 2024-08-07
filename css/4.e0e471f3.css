@@ -1,0 +1,26 @@
+.title-sj[data-v-aabdb908] {
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #4088fe;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 2.8125rem;
+  height: 2.8125rem;
+}
+.flex-div[data-v-aabdb908] {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.0625rem dashed #dfdfdf;
+  margin: 0 0.3125rem;
+  line-height: 2.25rem;
+}
+.label[data-v-aabdb908] {
+  width: 33%;
+  font-size: 0.875rem;
+  text-align: right;
+}
+.value[data-v-aabdb908] {
+  color: #333333;
+  font-size: 0.875rem;
+  width: 67%;
+}
